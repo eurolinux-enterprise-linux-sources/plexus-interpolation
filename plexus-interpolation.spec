@@ -1,6 +1,6 @@
 Name:           plexus-interpolation
 Version:        1.15
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Plexus Interpolation API
 
 Group:          Development/Libraries
@@ -51,6 +51,9 @@ API documentation for %{name}.
 %files javadoc -f .mfiles-javadoc
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.15-8
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.15-7
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
